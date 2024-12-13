@@ -1,0 +1,28 @@
+{
+  "manifest_version": 3,
+  "name": "URL Listener Extension in React",
+  "version": "1.0",
+  "description": "Listens for tab changes and injects content script on specific URL",
+  "permissions": [
+    "tabs",
+    "activeTab",
+    "scripting",
+    "storage"
+  ],
+  "action": {
+      "default_popup": "index.html"
+  },
+  "host_permissions": [
+    "<all_urls>" 
+  ],
+  "background": {
+      "service_worker": "background.js",
+      "type": "module"
+  },
+  "content_scripts": [
+      {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"]
+      }
+  ]
+}
