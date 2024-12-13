@@ -1,15 +1,49 @@
 
-# Description
-   This is an extension developed using react in addition to js,css,html which essentially lets the user to inject pre-defined prompts when navigating from another website to chatgpt
-# Downloading and setting up the extension
-  1.Either clone the repository or get the zip file and extract all files
-  2.Go to chrome://extension page or click on the extension icon on top right of your browser window and then click manage extension.
-  3.Switch on developer mode on top right of the chrome://extension page
-  4.Click on load unpacked on the top left 
-  5.Go to the location/directory where you cloned/extracted the contents into in the 1st step
-  6.Select 'dist' folder inside the ChatGPTPre-definedPromptExtension
-# Adding pre-defined prompts
-  1.By now,u must be able to see the extension name when u click on the extension window on top right of chrome.If not,try to execute the instructions above once again.
-  2.Think of any website,say 'xyz.com' for which you would like a pre-defined prompt to be present when u navigate from 'xyz.com' to chatgpt.Let us say u want to have the prompt 'abc' to be automatically present when you navigate from the tab 'xyz.com' to chatgpt.
-  3.Click on the extension icon on the top right of chrome and then click on this icon now you will get a popup .Then input 'xyz.com' or in general 'xyz' if u want the pre-defined prompt to be applicable to any pages of the website into 'website' and the pre-defined prompt 'abc' into prompt input field in the extension popup.
+# ChatGPT Pre-defined Prompt Extension
+
+## Description
+This extension, developed using React along with JavaScript, CSS, and HTML, allows users to inject pre-defined prompts when navigating from another website to ChatGPT.
+
+---
+
+## Downloading and Setting Up the Extension
+
+1. **Clone or Download**
+   - Clone the repository or download the zip file and extract all files.
+
+2. **Navigate to Extensions Page**
+   - Open `chrome://extensions` in your browser or click the extension icon at the top-right corner of your browser and select "Manage Extensions."
+
+3. **Enable Developer Mode**
+   - Switch on **Developer Mode** located at the top-right corner of the `chrome://extensions` page.
+
+4. **Load the Extension**
+   - Click on **Load unpacked** located at the top-left corner.
+   - Navigate to the directory where you cloned or extracted the files in Step 1.
+   - Select the `dist` folder inside the `ChatGPTPre-definedPromptExtension` directory.
+
+---
+
+## Adding Pre-defined Prompts
+
+1. **Check Extension Installation**
+   - Ensure you see the extension name when you click the extension icon at the top-right corner of Chrome.
+   - If the extension is not visible, re-follow the setup instructions above.
+
+2. **Define Website and Prompt**
+   - Identify the website (e.g., `xyz.com`) for which you want a pre-defined prompt to appear when navigating to ChatGPT.
+   - Decide on the prompt text (e.g., `abc`) that should automatically populate when transitioning from `xyz.com` to ChatGPT.
+
+3. **Add Prompt through Extension**
+   - Click the extension icon at the top-right corner of Chrome to open the popup.
+   - In the popup, input:
+     - The website (e.g., `xyz.com` or just `xyz` for all pages of the site) into the **Website** field.
+     - The pre-defined prompt (e.g., `abc`) into the **Prompt** input field.
+   - Save your changes.
+
+---
+
+Now, the pre-defined prompt will automatically appear when navigating from the specified website to ChatGPT.
+
+
 
